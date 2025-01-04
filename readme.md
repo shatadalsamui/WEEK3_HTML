@@ -7,6 +7,7 @@ This repository contains several HTML files demonstrating basic and advanced man
 
 ## Contents
 
+
 - `adding-elements.html`  
   A Todo list example with functionality to add and delete tasks.
 
