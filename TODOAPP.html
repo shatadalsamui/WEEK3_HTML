@@ -3,12 +3,12 @@
 <input type="text">
 <button onclick="addTodo()">Add todo !</button>
 <script>
-    function addTodo(){
+    function addTodo() {
         const inputEl = document.querySelector("input");
-        const value =inputEl.value ;
+        const value = inputEl.value;
 
         const newDivEl = document.createElement("div");
-        newDivEl.innerHTML = "<div>" + value + "</div><button>DELETE</button>" ;
+        newDivEl.innerHTML = "<div>" + value + "</div><button>DELETE</button>";
 
         document.querySelector("body").appendChild(newDivEl);
     }
